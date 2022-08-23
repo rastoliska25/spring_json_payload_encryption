@@ -40,7 +40,7 @@ public class EncryptDecryptRSAController {
     }
 
     @PostMapping("/decrypts")
-    public String decryptMessages() {
+    public List<String> decryptMessages() {
         return EncryptionDecryption.decryptMessages();
     }
 

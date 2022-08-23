@@ -63,46 +63,48 @@ public class EncryptDecryptService {
     //multiple messages
     List<String> nezakodovaneMessages = new ArrayList<>();
     List<String> zakodovaneMessages = new ArrayList<>();
+
+    List<String> odkodovaneMessages = new ArrayList<>();
+
     public String encryptMessages(List<User> messagesToEncrypt) {
-        messagesToEncrypt.forEach(
-                messageToEncrypt -> {
-                    nezakodovaneMessages.add(messageToEncrypt.getName());
-                    System.out.println(messageToEncrypt.getName());
-                });
+        messagesToEncrypt.forEach(messageToEncrypt -> {
+            nezakodovaneMessages.add(messageToEncrypt.getName());
+            System.out.println(messageToEncrypt.getName());
+        });
 
-        nezakodovaneMessages.forEach(
-                message -> {
+        nezakodovaneMessages.forEach(message -> {
 
-                    try {
-                        Cipher cipher = Cipher.getInstance("RSA/ECB/OAEPWITHSHA-512ANDMGF1PADDING");
-                        PublicKey publicKey = (PublicKey) keyMap.get("publicKey");
-                        cipher.init(Cipher.ENCRYPT_MODE, publicKey);
-                        byte[] encrypt = cipher.doFinal(message.getBytes());
-                        System.out.println(Base64.getEncoder().encodeToString(encrypt));
-                        zakodovaneMessages.add(Base64.getEncoder().encodeToString(encrypt));
-                    } catch (Exception ignored) {
+            try {
+                Cipher cipher = Cipher.getInstance("RSA/ECB/OAEPWITHSHA-512ANDMGF1PADDING");
+                PublicKey publicKey = (PublicKey) keyMap.get("publicKey");
+                cipher.init(Cipher.ENCRYPT_MODE, publicKey);
+                byte[] encrypt = cipher.doFinal(message.getBytes());
+                System.out.println(Base64.getEncoder().encodeToString(encrypt));
+                zakodovaneMessages.add(Base64.getEncoder().encodeToString(encrypt));
+            } catch (Exception ignored) {
 
-                    }
-                });
+            }
+        });
         return "";
     }
 
-    public String decryptMessages() {
-        System.out.println(zakodovaneMessages.get(0));
+    public List<String> decryptMessages() {
 
-        try {
-            Cipher cipher = Cipher.getInstance("RSA/ECB/OAEPWITHSHA-512ANDMGF1PADDING");
-            PrivateKey privateKey = (PrivateKey) keyMap.get("privateKey");
-            cipher.init(Cipher.DECRYPT_MODE, privateKey);
-            byte[] decrypt = cipher.doFinal(Base64.getDecoder().decode(zakodovaneMessages.get(0)));
-            return new String(decrypt);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        zakodovaneMessages.forEach(message -> {
 
-        return "";
+            try {
+                Cipher cipher = Cipher.getInstance("RSA/ECB/OAEPWITHSHA-512ANDMGF1PADDING");
+                PrivateKey privateKey = (PrivateKey) keyMap.get("privateKey");
+                cipher.init(Cipher.DECRYPT_MODE, privateKey);
+                byte[] decrypt = cipher.doFinal(Base64.getDecoder().decode(message));
+                odkodovaneMessages.add(new String(decrypt));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        });
+        return odkodovaneMessages;
     }
-
 
 
 }
