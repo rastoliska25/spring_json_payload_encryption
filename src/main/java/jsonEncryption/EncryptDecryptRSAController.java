@@ -35,7 +35,7 @@ public class EncryptDecryptRSAController {
     @PostMapping("/encrypts")
     public ResponseEntity<String> encryptMessages(@RequestBody List<User> messagesToEncrypt) {
         EncryptionDecryption.encryptMessages(messagesToEncrypt);
-
+        Logger.logger.info(String.valueOf(HttpStatus.OK));
         return new ResponseEntity<>(HttpStatus.OK);
     }
 

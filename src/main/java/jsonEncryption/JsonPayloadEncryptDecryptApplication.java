@@ -1,9 +1,10 @@
 package jsonEncryption;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication()
 public class JsonPayloadEncryptDecryptApplication {
 
     public static void main(String[] args) {

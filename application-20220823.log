@@ -1,0 +1,68 @@
+2022-08-23 23:27:33.615 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - Starting JsonPayloadEncryptDecryptApplication using Java 18.0.2 on Rasto-HomePC with PID 25200 (C:\Users\Rasťo\Desktop\spring json payload encryption\target\classes started by Rasťo in C:\Users\Rasťo\Desktop\spring json payload encryption)
+2022-08-23 23:27:33.674 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - No active profile set, falling back to 1 default profile: "default"
+2022-08-23 23:27:34.417 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-08-23 23:27:34.439 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-23 23:27:34.439 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-23 23:27:34.440 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 23:27:34.511 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-23 23:27:34.512 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 801 ms
+2022-08-23 23:27:34.756 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-23 23:27:34.779 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 23:27:34.787 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - Started JsonPayloadEncryptDecryptApplication in 1.419 seconds (JVM running for 2.17)
+2022-08-23 23:27:44.658 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-23 23:27:44.658 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-23 23:27:44.659 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-08-23 23:27:52.703 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-23 23:31:41.992 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - Starting JsonPayloadEncryptDecryptApplication using Java 18.0.2 on Rasto-HomePC with PID 31776 (C:\Users\Rasťo\Desktop\spring json payload encryption\target\classes started by Rasťo in C:\Users\Rasťo\Desktop\spring json payload encryption)
+2022-08-23 23:31:42.045 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - No active profile set, falling back to 1 default profile: "default"
+2022-08-23 23:31:42.734 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-08-23 23:31:42.749 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-23 23:31:42.750 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-23 23:31:42.751 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 23:31:42.822 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-23 23:31:42.823 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 740 ms
+2022-08-23 23:31:43.051 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-23 23:31:43.070 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 23:31:43.078 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - Started JsonPayloadEncryptDecryptApplication in 1.315 seconds (JVM running for 1.981)
+2022-08-23 23:31:59.544 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-23 23:31:59.544 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-23 23:31:59.545 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-08-23 23:32:06.971 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - 200 OK
+2022-08-23 23:33:47.936 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - 200 OK
+2022-08-23 23:33:49.052 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - 200 OK
+2022-08-23 23:33:49.963 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - 200 OK
+2022-08-23 23:34:11.207 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - Starting JsonPayloadEncryptDecryptApplication using Java 18.0.2 on Rasto-HomePC with PID 32060 (C:\Users\Rasťo\Desktop\spring json payload encryption\target\classes started by Rasťo in C:\Users\Rasťo\Desktop\spring json payload encryption)
+2022-08-23 23:34:11.262 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - No active profile set, falling back to 1 default profile: "default"
+2022-08-23 23:34:11.965 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-08-23 23:34:11.980 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-23 23:34:11.980 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-23 23:34:11.981 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 23:34:12.051 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-23 23:34:12.052 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 756 ms
+2022-08-23 23:34:12.291 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-23 23:34:12.309 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 23:34:12.318 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - Started JsonPayloadEncryptDecryptApplication in 1.344 seconds (JVM running for 2.02)
+2022-08-23 23:34:25.748 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-23 23:34:25.749 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-23 23:34:25.750 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-08-23 23:34:30.750 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-23 23:34:34.902 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-23 23:34:35.926 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK
+2022-08-23 23:44:56.550 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - Starting JsonPayloadEncryptDecryptApplication using Java 18.0.2 on Rasto-HomePC with PID 2544 (C:\Users\Rasťo\Desktop\spring json payload encryption\target\classes started by Rasťo in C:\Users\Rasťo\Desktop\spring json payload encryption)
+2022-08-23 23:44:56.607 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - No active profile set, falling back to 1 default profile: "default"
+2022-08-23 23:44:57.366 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-08-23 23:44:57.380 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-23 23:44:57.381 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-23 23:44:57.382 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-23 23:44:57.448 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-23 23:44:57.449 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 807 ms
+2022-08-23 23:44:57.712 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-23 23:44:57.735 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-23 23:44:57.746 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - Started JsonPayloadEncryptDecryptApplication in 1.43 seconds (JVM running for 2.134)
+2022-08-23 23:45:21.330 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-23 23:45:21.331 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-23 23:45:21.331 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-08-23 23:45:35.517 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-23 23:45:57.159 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - 200 OK
+2022-08-23 23:45:58.941 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - 200 OK
+2022-08-23 23:45:59.788 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - 200 OK

@@ -66,6 +66,9 @@ public class EncryptDecryptService {
     List<String> odkodovaneMessages = new ArrayList<>();
 
     public String encryptMessages(List<User> messagesToEncrypt) {
+        nezakodovaneMessages.clear();
+        zakodovaneMessages.clear();
+        odkodovaneMessages.clear();
         messagesToEncrypt.forEach(messageToEncrypt -> {
             nezakodovaneMessages.add(messageToEncrypt.getName());
             System.out.println(messageToEncrypt.getName());
