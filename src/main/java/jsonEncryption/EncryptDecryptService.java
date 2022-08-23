@@ -88,7 +88,9 @@ public class EncryptDecryptService {
 
         List<String> plainTextS = new ArrayList<>();
         plainTextS.add("ahoj1");
+        plainTextS.add("ahoj2");
         plainTextS.add("ahoj3");
+        plainTextS.add("ahoj4");
 
 
         plainTextS.forEach(
@@ -105,6 +107,22 @@ public class EncryptDecryptService {
 
                     }
                 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         return "";
 
 
