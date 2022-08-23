@@ -1,33 +1,15 @@
 package jsonEncryption;
 
 
+import lombok.Builder;
+
+@Builder
 public class User {
 
     private String name;
-
     private String role;
-
-    public User() {
-    }
-
-    public User(String name, String role) {
-        this.name = name;
-        this.role = role;
-    }
 
     public String getName() {
         return name;
-    }
-
-    public String getRole() {
-        return role;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", role='" + role + '\'' +
-                '}';
     }
 }

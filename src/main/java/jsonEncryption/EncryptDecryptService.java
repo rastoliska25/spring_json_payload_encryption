@@ -63,7 +63,6 @@ public class EncryptDecryptService {
     //multiple messages
     List<String> nezakodovaneMessages = new ArrayList<>();
     List<String> zakodovaneMessages = new ArrayList<>();
-
     List<String> odkodovaneMessages = new ArrayList<>();
 
     public String encryptMessages(List<User> messagesToEncrypt) {
