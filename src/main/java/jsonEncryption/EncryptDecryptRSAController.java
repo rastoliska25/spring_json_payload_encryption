@@ -30,8 +30,9 @@ public class EncryptDecryptRSAController {
     }
 
     //multiple string test
-    @PostMapping("/encryptMessages")
-    public String encryptMessage(@RequestBody List<String> messagesToEncrypt) {
-        return EncryptionDecryption.encryptMessages(messagesToEncrypt);
+    @PostMapping("/encrypts")
+    //public String encryptMessages(@RequestBody List<String> messagesToEncrypt) {
+    public String encryptMessages(@RequestBody String messagesToEncrypt) {
+        return EncryptionDecryption.encryptMessages();
     }
 }
