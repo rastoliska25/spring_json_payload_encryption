@@ -34,9 +34,14 @@ public class EncryptDecryptRSAController {
     //multiple string test
     @PostMapping("/encrypts")
     public ResponseEntity<String> encryptMessages(@RequestBody List<User> messagesToEncrypt) {
-        EncryptionDecryption.encryptMessages();
+        EncryptionDecryption.encryptMessages(messagesToEncrypt);
 
         return new ResponseEntity<>(HttpStatus.OK);
+    }
+
+    @PostMapping("/decrypts")
+    public String decryptMessages() {
+        return EncryptionDecryption.decryptMessages();
     }
 
 }

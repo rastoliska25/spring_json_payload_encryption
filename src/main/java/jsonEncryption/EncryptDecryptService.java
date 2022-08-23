@@ -61,13 +61,16 @@ public class EncryptDecryptService {
     }
 
     //multiple messages
+    List<String> nezakodovaneMessages = new ArrayList<>();
+    List<String> zakodovaneMessages = new ArrayList<>();
+    public String encryptMessages(List<User> messagesToEncrypt) {
+        messagesToEncrypt.forEach(
+                messageToEncrypt -> {
+                    nezakodovaneMessages.add(messageToEncrypt.getName());
+                    System.out.println(messageToEncrypt.getName());
+                });
 
-
-    List<String> nahodneSlovaEncrypted = new ArrayList<>();
-/*
-    public String encryptMessages(List<String> plainTextS) {
-
-        plainTextS.forEach(
+        nezakodovaneMessages.forEach(
                 message -> {
 
                     try {
@@ -76,73 +79,30 @@ public class EncryptDecryptService {
                         cipher.init(Cipher.ENCRYPT_MODE, publicKey);
                         byte[] encrypt = cipher.doFinal(message.getBytes());
                         System.out.println(Base64.getEncoder().encodeToString(encrypt));
-                        nahodneSlovaEncrypted.add(Base64.getEncoder().encodeToString(encrypt));
+                        zakodovaneMessages.add(Base64.getEncoder().encodeToString(encrypt));
                     } catch (Exception ignored) {
 
                     }
                 });
         return "";
     }
-*/
-    public String encryptMessages() {
 
-        List<String> plainTextS = new ArrayList<>();
-        plainTextS.add("ahoj1");
-        plainTextS.add("ahoj2");
-        plainTextS.add("ahoj3");
-        plainTextS.add("ahoj4");
+    public String decryptMessages() {
+        System.out.println(zakodovaneMessages.get(0));
 
-
-        plainTextS.forEach(
-                message -> {
-
-                    try {
-                        Cipher cipher = Cipher.getInstance("RSA/ECB/OAEPWITHSHA-512ANDMGF1PADDING");
-                        PublicKey publicKey = (PublicKey) keyMap.get("publicKey");
-                        cipher.init(Cipher.ENCRYPT_MODE, publicKey);
-                        byte[] encrypt = cipher.doFinal(message.getBytes());
-                        System.out.println(Base64.getEncoder().encodeToString(encrypt));
-                        //nahodneSlovaEncrypted.add(Base64.getEncoder().encodeToString(encrypt));
-                    } catch (Exception ignored) {
-
-                    }
-                });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        return "";
-
-
-        //funkcne s 1 stringom
-        /*
         try {
-            String plainText = "test1";
-
             Cipher cipher = Cipher.getInstance("RSA/ECB/OAEPWITHSHA-512ANDMGF1PADDING");
-            PublicKey publicKey = (PublicKey) keyMap.get("publicKey");
-            cipher.init(Cipher.ENCRYPT_MODE, publicKey);
-            byte[] encrypt = cipher.doFinal(plainText.getBytes());
-            System.out.println(Base64.getEncoder().encodeToString(encrypt));
-            return new String(Base64.getEncoder().encodeToString(encrypt));
-        } catch (Exception ignored) {
-
+            PrivateKey privateKey = (PrivateKey) keyMap.get("privateKey");
+            cipher.init(Cipher.DECRYPT_MODE, privateKey);
+            byte[] decrypt = cipher.doFinal(Base64.getDecoder().decode(zakodovaneMessages.get(0)));
+            return new String(decrypt);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-        return "";
-*/
 
+        return "";
     }
+
+
 
 }
