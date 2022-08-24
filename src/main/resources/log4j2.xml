@@ -8,9 +8,8 @@
             <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </File>
 
-        <Socket name="li-encryption" host="localhost" port="24224">
+        <Socket name="en-Encryption" host="localhost" port="24224">
             <JsonLayout compact="true" eventEol="true" />
-            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
         </Socket>
 
     </Appenders>
@@ -18,7 +17,7 @@
         <Root level="INFO">
             <AppenderRef ref="ConsoleAppender" />
             <AppenderRef ref="FileAppender"/>
-            <AppenderRef ref="Socket"/>
+            <AppenderRef ref="en-Encryption"/>
         </Root>
     </Loggers>
 </Configuration>

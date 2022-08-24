@@ -88,7 +88,9 @@ public class EncryptDecryptService {
             }
         });
         long stopTime = System.nanoTime();
-        Logger.logger.info("method time:" + String.valueOf(stopTime - startTime) + "messages size:" + nezakodovaneMessages.size());
+        Logger.logger.info(String.valueOf(stopTime - startTime));
+        Logger.logger.info(String.valueOf(nezakodovaneMessages.size()));
+
         return "";
     }
 
