@@ -66,6 +66,7 @@ public class EncryptDecryptService {
     List<String> odkodovaneMessages = new ArrayList<>();
 
     public String encryptMessages(List<User> messagesToEncrypt) {
+        long startTime = System.nanoTime();
         nezakodovaneMessages.clear();
         zakodovaneMessages.clear();
         odkodovaneMessages.clear();
@@ -75,7 +76,6 @@ public class EncryptDecryptService {
         });
 
         nezakodovaneMessages.forEach(message -> {
-
             try {
                 Cipher cipher = Cipher.getInstance("RSA/ECB/OAEPWITHSHA-512ANDMGF1PADDING");
                 PublicKey publicKey = (PublicKey) keyMap.get("publicKey");
@@ -87,6 +87,8 @@ public class EncryptDecryptService {
 
             }
         });
+        long stopTime = System.nanoTime();
+        Logger.logger.info("method time:" + String.valueOf(stopTime - startTime) + "messages size:" + nezakodovaneMessages.size());
         return "";
     }
 
