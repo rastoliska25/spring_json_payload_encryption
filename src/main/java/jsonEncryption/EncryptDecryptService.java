@@ -7,6 +7,7 @@ import java.security.PublicKey;
 import java.util.*;
 import javax.crypto.Cipher;
 
+import jsonEncryption.InstrumentationalAgent.InstrumentationAgent;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -88,8 +89,7 @@ public class EncryptDecryptService {
             }
         });
         long stopTime = System.nanoTime();
-        Logger.logger.info(String.valueOf(stopTime - startTime));
-        Logger.logger.info(String.valueOf(nezakodovaneMessages.size()));
+        Logger.logger.info("appinfo,{},{}", + nezakodovaneMessages.size(), (stopTime - startTime));
 
         return "";
     }
