@@ -1028,3 +1028,379 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2022-08-25 21:41:15.616 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
 2022-08-25 21:41:15.624 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - Started JsonPayloadEncryptDecryptApplication in 1.35 seconds (JVM running for 2.037)
 2022-08-25 21:41:15.629 [main] INFO  jsonEncryption.Logger - appinfo,500,1682458
+2022-08-25 22:19:34.792 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - Starting JsonPayloadEncryptDecryptApplication using Java 18.0.2.1 on Rasto-HomePC with PID 32948 (C:\Users\Rasťo\Desktop\spring_json_payload_encryption\target\classes started by Rasťo in C:\Users\Rasťo\Desktop\spring_json_payload_encryption)
+2022-08-25 22:19:34.854 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - No active profile set, falling back to 1 default profile: "default"
+2022-08-25 22:19:35.541 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-08-25 22:19:35.556 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:19:35.557 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-25 22:19:35.557 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-25 22:19:35.625 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-25 22:19:35.625 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 737 ms
+2022-08-25 22:19:35.844 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:19:35.864 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-25 22:19:35.873 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - Started JsonPayloadEncryptDecryptApplication in 1.315 seconds (JVM running for 1.998)
+2022-08-25 22:19:35.877 [main] INFO  jsonEncryption.Logger - appinfo,500,1682458
+2022-08-25 22:20:39.532 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-25 22:20:39.533 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-25 22:20:39.534 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-08-25 22:20:48.388 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - appinfo,500,130314700
+2022-08-25 22:20:48.389 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:20:59.870 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - appinfo,500,71627500
+2022-08-25 22:20:59.870 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:21:00.582 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - appinfo,500,69046900
+2022-08-25 22:21:00.583 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:21:01.322 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - appinfo,500,71983200
+2022-08-25 22:21:01.322 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:21:01.930 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - appinfo,500,71158000
+2022-08-25 22:21:01.930 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:23:30.114 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - appinfo,500,78172800
+2022-08-25 22:23:30.115 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:23:35.079 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - appinfo,500,71902600
+2022-08-25 22:23:35.079 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:23:40.074 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - appinfo,500,64110000
+2022-08-25 22:23:40.074 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:23:45.085 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - appinfo,500,69135200
+2022-08-25 22:23:45.085 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:23:50.074 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - appinfo,500,67105000
+2022-08-25 22:23:50.074 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:23:55.079 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - appinfo,500,64098400
+2022-08-25 22:23:55.079 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:24:00.077 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - appinfo,500,64463200
+2022-08-25 22:24:00.078 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:24:05.073 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - appinfo,500,63312500
+2022-08-25 22:24:05.073 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:24:10.070 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - appinfo,500,62957800
+2022-08-25 22:24:10.070 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:24:15.072 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - appinfo,500,62193900
+2022-08-25 22:24:15.073 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:24:20.073 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - appinfo,500,61105600
+2022-08-25 22:24:20.073 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:24:25.075 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - appinfo,500,62614800
+2022-08-25 22:24:25.075 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:24:30.069 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - appinfo,500,61787400
+2022-08-25 22:24:30.069 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:24:35.075 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - appinfo,500,62559100
+2022-08-25 22:24:35.075 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:24:40.081 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - appinfo,500,64139800
+2022-08-25 22:24:40.082 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:24:45.074 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - appinfo,500,63055400
+2022-08-25 22:24:45.074 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:24:50.072 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - appinfo,500,61536600
+2022-08-25 22:24:50.073 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:24:55.071 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - appinfo,500,61795000
+2022-08-25 22:24:55.072 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:25:00.073 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - appinfo,500,62945100
+2022-08-25 22:25:00.074 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:25:05.068 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - appinfo,500,61273000
+2022-08-25 22:25:05.069 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:25:10.069 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - appinfo,500,61967600
+2022-08-25 22:25:10.069 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:25:15.078 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - appinfo,500,62584400
+2022-08-25 22:25:15.078 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:25:20.078 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - appinfo,500,61659700
+2022-08-25 22:25:20.078 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:25:25.067 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - appinfo,500,61399200
+2022-08-25 22:25:25.067 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:25:30.066 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - appinfo,500,61971400
+2022-08-25 22:25:30.066 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:25:35.076 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - appinfo,500,61849600
+2022-08-25 22:25:35.076 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:25:40.066 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - appinfo,500,63111900
+2022-08-25 22:25:40.067 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:25:45.065 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - appinfo,500,61751500
+2022-08-25 22:25:45.066 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:25:50.065 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - appinfo,500,61804900
+2022-08-25 22:25:50.065 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:25:55.069 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - appinfo,500,61717700
+2022-08-25 22:25:55.069 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:26:00.077 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - appinfo,500,61488800
+2022-08-25 22:26:00.078 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:26:05.080 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - appinfo,500,63108300
+2022-08-25 22:26:05.080 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:26:10.078 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - appinfo,500,61935800
+2022-08-25 22:26:10.079 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:26:15.066 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - appinfo,500,60802800
+2022-08-25 22:26:15.067 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:26:20.071 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - appinfo,500,62294400
+2022-08-25 22:26:20.071 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:26:25.067 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - appinfo,500,62062800
+2022-08-25 22:26:25.067 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:26:30.077 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - appinfo,500,60927200
+2022-08-25 22:26:30.078 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:26:35.073 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - appinfo,500,61378200
+2022-08-25 22:26:35.073 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:26:40.070 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - appinfo,500,61757000
+2022-08-25 22:26:40.071 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:26:45.066 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - appinfo,500,61873400
+2022-08-25 22:26:45.067 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:26:50.070 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - appinfo,500,62621300
+2022-08-25 22:26:50.070 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:26:55.067 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - appinfo,500,61334000
+2022-08-25 22:26:55.068 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:27:00.068 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - appinfo,500,61944700
+2022-08-25 22:27:00.068 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:27:05.078 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - appinfo,500,62544600
+2022-08-25 22:27:05.079 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:27:10.076 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - appinfo,500,60838000
+2022-08-25 22:27:10.077 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:27:15.068 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - appinfo,500,62682300
+2022-08-25 22:27:15.069 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:27:20.076 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - appinfo,500,62200400
+2022-08-25 22:27:20.076 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:27:25.070 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - appinfo,500,61915500
+2022-08-25 22:27:25.070 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:27:30.075 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - appinfo,500,62171200
+2022-08-25 22:27:30.075 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:27:35.077 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - appinfo,500,60887200
+2022-08-25 22:27:35.078 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:27:40.071 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - appinfo,500,62377700
+2022-08-25 22:27:40.071 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:27:45.067 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - appinfo,500,61955700
+2022-08-25 22:27:45.070 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:27:50.066 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - appinfo,500,62563900
+2022-08-25 22:27:50.067 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:27:55.079 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - appinfo,500,63505500
+2022-08-25 22:27:55.079 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:28:00.075 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - appinfo,500,62675000
+2022-08-25 22:28:00.076 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:28:05.069 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - appinfo,500,61799200
+2022-08-25 22:28:05.069 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:28:10.067 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - appinfo,500,62609700
+2022-08-25 22:28:10.068 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:28:15.068 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - appinfo,500,61421100
+2022-08-25 22:28:15.068 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:28:20.069 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - appinfo,500,60839800
+2022-08-25 22:28:20.069 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:28:25.069 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - appinfo,500,61778500
+2022-08-25 22:28:25.070 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:28:30.067 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - appinfo,500,62411200
+2022-08-25 22:28:30.068 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:28:35.070 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - appinfo,500,61717600
+2022-08-25 22:28:35.071 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:28:40.078 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - appinfo,500,62593300
+2022-08-25 22:28:40.079 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:28:45.073 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - appinfo,500,61200500
+2022-08-25 22:28:45.074 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:28:50.077 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - appinfo,500,62087000
+2022-08-25 22:28:50.077 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:28:55.069 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - appinfo,500,61886700
+2022-08-25 22:28:55.069 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:29:00.071 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - appinfo,500,62753800
+2022-08-25 22:29:00.071 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:29:05.070 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - appinfo,500,62841300
+2022-08-25 22:29:05.071 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:29:10.066 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - appinfo,500,62861600
+2022-08-25 22:29:10.067 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:29:15.079 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - appinfo,500,62721600
+2022-08-25 22:29:15.080 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:29:20.069 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - appinfo,500,61433000
+2022-08-25 22:29:20.070 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:29:25.077 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - appinfo,500,61585800
+2022-08-25 22:29:25.078 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:29:30.071 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - appinfo,500,61569200
+2022-08-25 22:29:30.071 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:29:35.071 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - appinfo,500,62527400
+2022-08-25 22:29:35.071 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:29:40.074 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - appinfo,500,68910100
+2022-08-25 22:29:40.074 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:29:45.078 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - appinfo,500,62314700
+2022-08-25 22:29:45.078 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:29:50.075 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - appinfo,500,63065000
+2022-08-25 22:29:50.075 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:29:55.069 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - appinfo,500,61356800
+2022-08-25 22:29:55.069 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:30:00.070 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - appinfo,500,61464900
+2022-08-25 22:30:00.070 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:30:05.078 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - appinfo,500,61426300
+2022-08-25 22:30:05.078 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:30:10.072 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - appinfo,500,60980200
+2022-08-25 22:30:10.073 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:30:15.067 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - appinfo,500,62213000
+2022-08-25 22:30:15.067 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:30:20.066 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - appinfo,500,61614600
+2022-08-25 22:30:20.067 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:30:25.065 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - appinfo,500,62368999
+2022-08-25 22:30:25.066 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:30:30.078 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - appinfo,500,62334800
+2022-08-25 22:30:30.078 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:30:35.076 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - appinfo,500,61518800
+2022-08-25 22:30:35.077 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:30:40.068 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - appinfo,500,62200000
+2022-08-25 22:30:40.068 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:30:45.069 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - appinfo,500,62250201
+2022-08-25 22:30:45.069 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:30:50.066 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - appinfo,500,60684201
+2022-08-25 22:30:50.067 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:30:55.069 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - appinfo,500,62141000
+2022-08-25 22:30:55.069 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:31:00.071 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - appinfo,500,62944000
+2022-08-25 22:31:00.072 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:31:05.071 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - appinfo,500,61027900
+2022-08-25 22:31:05.071 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:31:10.068 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - appinfo,500,61972900
+2022-08-25 22:31:10.068 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:31:15.070 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - appinfo,500,62979300
+2022-08-25 22:31:15.070 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:35:55.497 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - Starting JsonPayloadEncryptDecryptApplication using Java 18.0.2.1 on Rasto-HomePC with PID 35232 (C:\Users\Rasťo\Desktop\spring_json_payload_encryption\target\classes started by Rasťo in C:\Users\Rasťo\Desktop\spring_json_payload_encryption)
+2022-08-25 22:35:55.577 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - No active profile set, falling back to 1 default profile: "default"
+2022-08-25 22:35:56.708 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-08-25 22:35:56.727 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:35:56.728 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-25 22:35:56.728 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-25 22:35:56.822 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-25 22:35:56.823 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1196 ms
+2022-08-25 22:35:57.192 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:35:57.218 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-25 22:35:57.227 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - Started JsonPayloadEncryptDecryptApplication in 2.034 seconds (JVM running for 2.974)
+2022-08-25 22:35:57.232 [main] INFO  jsonEncryption.Logger - appinfo,500,1682458
+2022-08-25 22:36:04.787 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-25 22:36:04.787 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-25 22:36:04.789 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-08-25 22:36:06.023 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - appinfo,500,113428600
+2022-08-25 22:36:06.024 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:36:10.091 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - appinfo,500,81254700
+2022-08-25 22:36:10.092 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:36:15.115 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - appinfo,500,102984300
+2022-08-25 22:36:15.116 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:36:20.096 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - appinfo,500,85092700
+2022-08-25 22:36:20.099 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:36:25.082 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - appinfo,500,71412800
+2022-08-25 22:36:25.083 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:36:30.109 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - appinfo,500,97347200
+2022-08-25 22:36:30.112 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:36:35.101 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - appinfo,500,87801700
+2022-08-25 22:36:35.102 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:36:40.101 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - appinfo,500,82890500
+2022-08-25 22:36:40.103 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:36:45.078 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - appinfo,500,66312200
+2022-08-25 22:36:45.078 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:36:50.099 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - appinfo,500,89411000
+2022-08-25 22:36:50.101 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:36:55.098 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - appinfo,500,85786600
+2022-08-25 22:36:55.099 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:39:01.273 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - Starting JsonPayloadEncryptDecryptApplication using Java 18.0.2.1 on Rasto-HomePC with PID 35228 (C:\Users\Rasťo\Desktop\spring_json_payload_encryption\target\classes started by Rasťo in C:\Users\Rasťo\Desktop\spring_json_payload_encryption)
+2022-08-25 22:39:01.334 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - No active profile set, falling back to 1 default profile: "default"
+2022-08-25 22:39:02.036 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-08-25 22:39:02.050 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:39:02.051 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-25 22:39:02.051 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-25 22:39:02.120 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-25 22:39:02.120 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 749 ms
+2022-08-25 22:39:02.358 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:39:02.378 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-25 22:39:02.388 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - Started JsonPayloadEncryptDecryptApplication in 1.35 seconds (JVM running for 2.033)
+2022-08-25 22:39:02.394 [main] INFO  jsonEncryption.Logger - appinfo,500,1682458
+2022-08-25 22:39:15.161 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-25 22:39:15.162 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-25 22:39:15.163 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-08-25 22:39:16.776 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - appinfo,500,126361300
+2022-08-25 22:39:16.778 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:39:20.094 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - appinfo,500,73423500
+2022-08-25 22:39:20.095 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:39:25.082 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - appinfo,500,69578600
+2022-08-25 22:39:25.083 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:39:30.086 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - appinfo,500,75474300
+2022-08-25 22:39:30.087 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:39:35.081 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - appinfo,500,69940800
+2022-08-25 22:39:35.081 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:39:40.075 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - appinfo,500,65771600
+2022-08-25 22:39:40.076 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:39:45.076 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - appinfo,500,67483300
+2022-08-25 22:39:45.076 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:39:50.077 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - appinfo,500,65353000
+2022-08-25 22:39:50.077 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:39:55.079 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - appinfo,500,64643900
+2022-08-25 22:39:55.080 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:40:00.070 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - appinfo,500,65343300
+2022-08-25 22:40:00.070 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:40:05.080 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - appinfo,500,71191100
+2022-08-25 22:40:05.081 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:40:10.081 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - appinfo,500,64542300
+2022-08-25 22:40:10.081 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:40:15.072 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - appinfo,500,63800300
+2022-08-25 22:40:15.073 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:40:20.072 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - appinfo,500,65898200
+2022-08-25 22:40:20.072 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:40:25.073 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - appinfo,500,63768400
+2022-08-25 22:40:25.074 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:42:50.865 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - Starting JsonPayloadEncryptDecryptApplication using Java 18.0.2.1 on Rasto-HomePC with PID 34612 (C:\Users\Rasťo\Desktop\spring_json_payload_encryption\target\classes started by Rasťo in C:\Users\Rasťo\Desktop\spring_json_payload_encryption)
+2022-08-25 22:42:50.919 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - No active profile set, falling back to 1 default profile: "default"
+2022-08-25 22:42:51.606 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-08-25 22:42:51.619 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:42:51.620 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-08-25 22:42:51.620 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-25 22:42:51.688 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-08-25 22:42:51.689 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 734 ms
+2022-08-25 22:42:51.919 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-08-25 22:42:51.936 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-25 22:42:51.944 [main] INFO  jsonEncryption.JsonPayloadEncryptDecryptApplication - Started JsonPayloadEncryptDecryptApplication in 1.31 seconds (JVM running for 2.007)
+2022-08-25 22:42:51.950 [main] INFO  jsonEncryption.Logger - appinfo,500,1682458
+2022-08-25 22:42:59.490 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-25 22:42:59.491 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-08-25 22:42:59.491 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-08-25 22:43:01.079 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - appinfo,500,119367300
+2022-08-25 22:43:01.080 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:43:05.078 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - appinfo,500,72692200
+2022-08-25 22:43:05.079 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:43:10.085 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - appinfo,500,73299500
+2022-08-25 22:43:10.085 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:43:15.079 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - appinfo,500,68444700
+2022-08-25 22:43:15.080 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:43:20.077 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - appinfo,500,67533200
+2022-08-25 22:43:20.078 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:43:25.085 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - appinfo,500,66042100
+2022-08-25 22:43:25.086 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:43:30.075 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - appinfo,500,67047000
+2022-08-25 22:43:30.076 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:43:35.069 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - appinfo,500,64654700
+2022-08-25 22:43:35.070 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:43:40.078 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - appinfo,500,65790800
+2022-08-25 22:43:40.079 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:43:45.074 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - appinfo,500,64091600
+2022-08-25 22:43:45.075 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:43:50.071 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - appinfo,500,64361800
+2022-08-25 22:43:50.072 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:43:55.075 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - appinfo,500,65032700
+2022-08-25 22:43:55.076 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:44:00.079 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - appinfo,500,62503700
+2022-08-25 22:44:00.079 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:44:05.084 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - appinfo,500,68437100
+2022-08-25 22:44:05.085 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:44:10.075 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - appinfo,500,66557500
+2022-08-25 22:44:10.076 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:44:15.076 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - appinfo,500,63081900
+2022-08-25 22:44:15.077 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:44:20.085 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - appinfo,500,73127600
+2022-08-25 22:44:20.086 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:44:25.080 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - appinfo,500,63356600
+2022-08-25 22:44:25.080 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:44:30.071 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - appinfo,500,62442400
+2022-08-25 22:44:30.071 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:44:35.072 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - appinfo,500,62121200
+2022-08-25 22:44:35.072 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:44:40.074 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - appinfo,500,62989700
+2022-08-25 22:44:40.074 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:44:45.072 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - appinfo,500,62092500
+2022-08-25 22:44:45.073 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:44:50.068 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - appinfo,500,62818400
+2022-08-25 22:44:50.069 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:44:55.071 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - appinfo,500,62274700
+2022-08-25 22:44:55.071 [http-nio-8080-exec-5] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:45:00.070 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - appinfo,500,62669200
+2022-08-25 22:45:00.071 [http-nio-8080-exec-6] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:45:05.069 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - appinfo,500,61858600
+2022-08-25 22:45:05.070 [http-nio-8080-exec-7] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:45:10.078 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - appinfo,500,62278100
+2022-08-25 22:45:10.079 [http-nio-8080-exec-8] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:45:15.070 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - appinfo,500,62325400
+2022-08-25 22:45:15.070 [http-nio-8080-exec-9] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:45:20.079 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - appinfo,500,62833300
+2022-08-25 22:45:20.080 [http-nio-8080-exec-10] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:45:25.079 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - appinfo,500,61753600
+2022-08-25 22:45:25.080 [http-nio-8080-exec-1] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:45:30.072 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - appinfo,500,62728000
+2022-08-25 22:45:30.072 [http-nio-8080-exec-2] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:45:35.076 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - appinfo,500,63798800
+2022-08-25 22:45:35.076 [http-nio-8080-exec-3] INFO  jsonEncryption.Logger - 200 OK
+2022-08-25 22:45:40.072 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - appinfo,500,63797000
+2022-08-25 22:45:40.072 [http-nio-8080-exec-4] INFO  jsonEncryption.Logger - 200 OK

@@ -7,7 +7,6 @@ import java.security.PublicKey;
 import java.util.*;
 import javax.crypto.Cipher;
 
-import jsonEncryption.InstrumentationalAgent.InstrumentationAgent;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -66,7 +65,7 @@ public class EncryptDecryptService {
     List<String> zakodovaneMessages = new ArrayList<>();
     List<String> odkodovaneMessages = new ArrayList<>();
 
-    public String encryptMessages(List<User> messagesToEncrypt) {
+    public void encryptMessages(List<User> messagesToEncrypt) {
         long startTime = System.nanoTime();
         nezakodovaneMessages.clear();
         zakodovaneMessages.clear();
@@ -89,9 +88,8 @@ public class EncryptDecryptService {
             }
         });
         long stopTime = System.nanoTime();
-        Logger.logger.info("appinfo,{},{}", + nezakodovaneMessages.size(), (stopTime - startTime));
+        Logger.logger.info("appinfo,{},{}", +nezakodovaneMessages.size(), (stopTime - startTime));
 
-        return "";
     }
 
     public List<String> decryptMessages() {
