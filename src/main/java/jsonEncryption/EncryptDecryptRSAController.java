@@ -43,4 +43,11 @@ public class EncryptDecryptRSAController {
         return EncryptionDecryption.decryptMessages();
     }
 
+    //collections test
+    @PostMapping("/statue/publishStatues")
+    public List<Statue> statues(@RequestBody List<Statue> statues) {
+        return EncryptionDecryption.statues(statues);
+    }
+
+
 }

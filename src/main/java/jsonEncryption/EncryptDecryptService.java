@@ -110,5 +110,13 @@ public class EncryptDecryptService {
         return odkodovaneMessages;
     }
 
+    public List<Statue> statues(List<Statue> statues) {
+
+        Streams streams = new Streams();
+        streams.streams(statues);
+
+        return null;
+    }
+
 
 }
