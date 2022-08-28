@@ -10,7 +10,7 @@ public class JsonPayloadEncryptDecryptApplication {
     public static void main(String[] args) {
         SpringApplication.run(JsonPayloadEncryptDecryptApplication.class, args);
 
-        Reflexion.reflect();
+        //Reflexion.reflect();
+        EqualsHashcode.equalsHashcode();
     }
-
 }

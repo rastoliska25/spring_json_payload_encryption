@@ -1,14 +1,13 @@
 package jsonEncryption;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.Getter;
+import lombok.*;
 
 @Builder
 @Getter
 @AllArgsConstructor
 @Data
+@Setter
+@EqualsAndHashCode
 public class Statue {
 
     private String name;
@@ -22,4 +21,5 @@ public class Statue {
     private Long width;
 
     private Long height;
+
 }
