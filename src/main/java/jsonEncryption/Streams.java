@@ -12,6 +12,10 @@ import java.util.stream.Stream;
 public class Streams {
 
     public void streams(List<Statue> statues) {
+
+        //Stream.of();
+        Stream.of("x", "test", "ahoj");
+
         statues.forEach(System.out::println);
 
         List<String> names = new ArrayList<>();
@@ -54,6 +58,4 @@ public class Streams {
         System.out.println(statuesWithHeightBelow1500.compute (2, (k, v) -> Collections.singletonList(v + " s typ ID " + k)));
 
     }
-
-
 }

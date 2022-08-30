@@ -14,6 +14,8 @@ public class Reflexion {
 
     public static void reflect() {
 
+        /*
+
         //reflexia User test
         User user = new User("ferko", "testRola");
         Class<? extends User> userClass = user.getClass();
@@ -55,6 +57,10 @@ public class Reflexion {
         Method[] encryptMethods = encryptClass.getDeclaredMethods();
         for (Method method : encryptMethods) {
             printInterface.print("Method: " + method.getName() + "      return type: " + method.getReturnType().getName() + "       has varArgs:" + method.isVarArgs());
+
+
         }
+
+         */
     }
 }

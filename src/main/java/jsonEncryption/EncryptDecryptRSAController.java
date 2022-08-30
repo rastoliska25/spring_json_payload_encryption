@@ -15,6 +15,7 @@ public class EncryptDecryptRSAController {
     @Autowired
     EncryptDecryptService EncryptionDecryption;
 
+
     @PostMapping("/createKeys")
     public void createPrivatePublickey() {
         EncryptionDecryption.createKeys();
@@ -48,6 +49,32 @@ public class EncryptDecryptRSAController {
     public List<Statue> statues(@RequestBody List<Statue> statues) {
         return EncryptionDecryption.statues(statues);
     }
+
+
+
+    //mongodb test
+    private final UserRepository userRepository;
+
+
+    public EncryptDecryptRSAController(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+    @PostMapping("/insertUser")
+    public ResponseEntity add(@RequestBody User user) { //vytiahne Body do objektu
+        userRepository.findUserByName(user.getName())
+                .ifPresentOrElse(u -> {
+                    System.out.println(u + "uz existuje");
+                }, ()-> {
+                    System.out.println("vklada sa user " + user);
+                    userRepository.insert(user);
+                });
+
+        return new ResponseEntity<>(HttpStatus.CREATED);
+    }
+
+
+
 
 
 }
